@@ -1,0 +1,946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"l-tight"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"trans",
+				"translateX"
+			],
+			[
+				"tran",
+				"translateX"
+			],
+			[
+				"min",
+				"min-desktop"
+			],
+			[
+				"transi",
+				"transition-delay"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"check",
+				"checkListLength"
+			],
+			[
+				"create",
+				"createTodo"
+			],
+			[
+				"secondar",
+				"secondary-nav"
+			],
+			[
+				"gr",
+				"grey-dark"
+			],
+			[
+				"crea",
+				"createTodo"
+			],
+			[
+				"add",
+				"add-todo"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"max-",
+				"max-desktop"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sa",
+				"sans-l"
+			],
+			[
+				"mg",
+				"margin-bottom"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"t",
+				"tt	text-transform"
+			],
+			[
+				"char",
+				"characterCounter"
+			],
+			[
+				"bz",
+				"bdrz	border-radius"
+			],
+			[
+				"br",
+				"bdr+	border-right+"
+			],
+			[
+				"b",
+				"bd	border"
+			],
+			[
+				"ma",
+				"maw	max-width"
+			],
+			[
+				"bdr",
+				"bdrz	border-radius"
+			],
+			[
+				"p",
+				"p	padding"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"nav",
+				"nav	Tag"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jquer",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"stylu",
+				"Set Syntax: Stylus"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"heml",
+				"SublimeHighlight: view as HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"comb",
+				"Run CSScomb JS"
+			],
+			[
+				"css",
+				"Run CSScomb JS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacla",
+				"Package Control: Install Package"
+			],
+			[
+				"font",
+				"Snippet: font"
+			],
+			[
+				"reflect",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"comment",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"repla",
+				"Snippet: text-replace"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 628.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Tito/Downloads/CustomFont (1)/style.css",
+		"/Users/Tito/Downloads/CustomFont/style.css",
+		"/Users/Tito/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Tito/society/app/views/admin/index.html.erb",
+		"/Applications/MAMP/Library/share/fill_help_tables.sql",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/email template code/index.kit",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/email template code/main.css",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/email template code/email template",
+		"/Users/Tito/society/app/views/pages/_contact_map_section_with_settings.html.erb",
+		"/Users/Tito/society/app/controllers/pages_controller.rb",
+		"/Users/Tito/society/app/views/pages/contact.html.erb",
+		"/Users/Tito/society/app/assets/stylesheets/society/_mediaqueries.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/society/_structure.css.scss",
+		"/Users/Tito/society/app/views/pages/_contact_map_section.html.erb",
+		"/Users/Tito/society/app/assets/stylesheets/society/_contact.css.scss",
+		"/Users/Tito/society/app/views/pages/_contact_map_mobile.html.erb",
+		"/Users/Tito/society/app/views/pages/_contact_map_section_new.html.erb",
+		"/Users/Tito/society/app/assets/stylesheets/framework_and_overrides.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/society/_directors.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/society/_blog.css.scss",
+		"/Users/Tito/society/app/models/concerns/shared/settings_init.rb",
+		"/Users/Tito/society/app/views/application/_html_header_content.html.erb",
+		"/Users/Tito/society/app/views/application/_navbar.html.erb",
+		"/Users/Tito/society/app/assets/stylesheets/society/_culture.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/society-theme.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/slick.css.scss",
+		"/Users/Tito/society/README.md",
+		"/Users/Tito/society/app/assets/stylesheets/society/_sliders.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/normalize.css",
+		"/Users/Tito/Documents/Work/Current Projects/rosalind/website/dev/css/global.styl",
+		"/Users/Tito/society/app/assets/stylesheets/application.css.scss",
+		"/Users/Tito/society/app/assets/stylesheets/fhmm.css",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/portfolio website/Code/dev/index.kit",
+		"/Users/Tito/Documents/Helpful Files/base website/dev/index.kit",
+		"/Users/Tito/GOPATH/src/github.com/TCUguy/Flyppr/frontend/src/components/world.html",
+		"/Users/Tito/GOPATH/src/github.com/TCUguy/Flyppr/frontend/src/index.html",
+		"/Users/Tito/Documents/Helpful Files/base website/dev/css/global.styl",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/pages/login.coffee",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/pages/login.html",
+		"/Users/Tito/Documents/Work/Current Projects/rosalind/website/dev/css/app.styl",
+		"/Users/Tito/Documents/Work/Current Projects/rosalind/website/dev/css/functions.styl",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/frontend/index.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/frontend/index.js",
+		"/Users/Tito/Documents/Helpful Files/Base Website/dev/index.kit",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/app.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/pages/home.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/components/serviceCard.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/components/head.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/pages/editCar.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/frontend/pages/vehicle-list.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/frontend/partials/vehicle-list.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/frontend/pages/app.html",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/package.json",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/frontend/styles/build-order.styl",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/wiki/framework and components used.txt",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/styles/app.styl",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/wiki/usernames and passwords",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/README.md",
+		"/Users/Tito/Documents/Helpful Files/Base Website/dev/css/normalize.styl",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development/frontend/src/styles/normalize.styl",
+		"/Users/Tito/Documents/Work/Current Projects/DataCarMaster/development - node rewrite/Data-Car-Master/node_modules/zip-stream/README.md",
+		"/Users/Tito/GOPATH/src/github.com/TCUguy/Flyppr/vendor/google.golang.org/appengine/datastore/datastore.go",
+		"/Users/Tito/GOPATH/src/github.com/TCUguy/Flyppr/backend/model/feed.go",
+		"/Users/Tito/GOPATH/src/github.com/TCUguy/Flyppr/backend/model/model.go",
+		"/Users/Tito/GOPATH/src/github.com/TCUguy/Flyppr/Flyppr.wiki/Home.md",
+		"/Users/Tito/Documents/Helpful Files/Base Website/dev/css/global.styl",
+		"/Users/Tito/Downloads/CutomFont/style.css",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/portfolio website/Code/dev/partials/smartwatch.kit",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/css/normalize.styl",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/partials/smartwatch.kit",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/partials/cms.kit",
+		"/Users/Tito/Desktop/Instagram Like Script.js",
+		"/private/var/folders/n3/yh3qqjx93k37t9kss2d49x640000gn/T/9dc308a1-9372-41d1-bf0f-f8d07191d7ce/home/weboefyk/public_html/createlabs/index.html",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/js/main.coffee",
+		"/private/var/folders/n3/yh3qqjx93k37t9kss2d49x640000gn/T/dfcbf9fe-7912-4152-b7d0-e582beb9d079/home/weboefyk/public_html/createlabs/contactengine.php",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/css/functions.styl",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/css/main.styl",
+		"/private/var/folders/n3/yh3qqjx93k37t9kss2d49x640000gn/T/dfcbf9fe-7912-4152-b7d0-e582beb9d079/home/weboefyk/public_html/createlabs/main.js",
+		"/Users/Tito/Documents/Work/Fun Projects/Flyppr/Code/dev/css/normalize.styl",
+		"/Users/Tito/Documents/Work/Fun Projects/Flyppr/Code/dev/index.kit",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/contactengine.php",
+		"/private/var/folders/n3/yh3qqjx93k37t9kss2d49x640000gn/T/dfcbf9fe-7912-4152-b7d0-e582beb9d079/home/weboefyk/public_html/createlabs/index.html",
+		"/Users/Tito/Downloads/index.php",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/.htaccess",
+		"/private/var/folders/n3/yh3qqjx93k37t9kss2d49x640000gn/T/dfcbf9fe-7912-4152-b7d0-e582beb9d079/home/weboefyk/public_html/createlabs/.htaccess",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/htaccess.php",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/To Do App/Code/dev/js/main.coffee",
+		"/Users/Tito/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/index.kit",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/dev/css/main.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Create Labs/Portfolio Site/Code/main.css",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Compass/compass/app/views/layout.jade",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Tito Soto/Code/dev/css/variables.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/To Do App/Code/dev/css/global.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/WE-Bola/code/dev/js/main.coffee",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Tito Soto/Code/dev/js/main.coffee",
+		"/Users/Titos15MBPR/Downloads/CreateLabs(4)/style.css",
+		"/Users/Titos15MBPR/Downloads/CreateLabs/style.css",
+		"/Users/Titos15MBPR/Downloads/CreateLabs/demo-files/demo.css",
+		"/Users/Titos15MBPR/Documents/Helpful Files/Base Website/dev/index.kit",
+		"/Users/Titos15MBPR/Documents/Helpful Files/Base Website/dev/css/global.styl",
+		"/Users/Titos15MBPR/Documents/Helpful Files/Base Website/dev/css/functions.styl",
+		"/Users/Titos15MBPR/Documents/Helpful Files/Base Website/dev/css/normalize.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Turnkey Marketing/Rosewill Toyota/12:30 - Finance/dev/css/global.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Turnkey Marketing/Rosewill Toyota/12:30 - Finance/dev/css/functions.styl",
+		"/Users/Titos15MBPR/Documents/Helpful Files/Base Website/dev/css/main.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/snippets/breadcrumb.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/cart.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Turnkey Marketing/Rosewill Toyota/12:15 - Custom VIP Pages/dev/css/functions.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Tito Soto/Code/dev/css/grid.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/page.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/article.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/blog.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/collection.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/page.contact.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/templates/product.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/assets/jquery.theme.js.liquid",
+		"/Users/Titos15MBPR/Downloads/backup.css",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/config/settings_schema.json",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/config/settings.html",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/assets/checkout.scss.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/config/settings_data.json",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/assets/theme.scss.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/Local Development/css/theme.scss.liquid",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529/assets/theme.scss",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/Local Development/css/normalize.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/Local Development/css/ui.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/Local Development/css/modules.styl",
+		"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/Local Development/css/type.styl"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Tito/society/",
+			"/Users/Tito/society/app/assets/stylesheets",
+			"/Users/Tito/society/app/stylesheets",
+			"/Users/Tito/society/app/society",
+			"/Users/Tito/society/app/",
+			"/Users/Tito/society/app/assets",
+			"/Users/Tito/society/app/assets/stylesheets",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529,-*.scss,-*.scss.liquid,-*.css,-*.json,-*.svg",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529,-*.scss,-*.scss.liquid,-*.css,-*.json",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529,-*.scss,-*.scss.liquid,-*.css",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529,-*.scss",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529,-*.css",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Casa Y Jardin/Development/casa-y-jardin-10098529",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Tito Soto/Code/dev/css",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Flyppr/Code/flyppr/",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Flyppr/Code/flyppr/front_end",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Flyppr/Code/flyppr/front_end/js",
+			"js-label",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Flyppr/Code/flyppr/website/templates",
+			"/Users/Titos15MBPR/Documents/Work/Current Projects/Flyppr/Code/flyppr/front_end/js",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website/templates",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website/",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website/templates",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website/static",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website/templates",
+			"/Users/Titos15MBPR/Documents/Current Projects/Flyppr/Code/codebase/website/controllers",
+			"",
+			"<open folders>",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets/javascripts",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets/javascript",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets/stylesheets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets/stylesheets",
+			"",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets/stylesheets",
+			"",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/views",
+			"",
+			"/Users/Titos15MBPR/Documents/Current Projects/817 Group/817 Connect/Bevy/Dev Code/bevy/app/assets/stylesheets",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"back-to",
+			"primary",
+			"secondary",
+			"height",
+			"margin-top 2em",
+			".content",
+			"work",
+			"$f-normal",
+			"sans",
+			"'active'",
+			".active",
+			"10%",
+			"top",
+			"number",
+			"back",
+			"r-large",
+			".content",
+			"js-project",
+			"number",
+			"opacity",
+			"reverse",
+			"console",
+			"project",
+			"clicking",
+			"data-button",
+			"top",
+			"top 0",
+			"webkit",
+			"f-r",
+			"c-main",
+			"c-mainhigh",
+			"c-main",
+			"toggle",
+			"grey",
+			"positive",
+			"negative",
+			"accept",
+			"%",
+			"10em",
+			"col-lg-12 col-md-12",
+			"contentyield",
+			".contact",
+			"overflow: scroll",
+			".jumbotron",
+			".contact",
+			"contact-map-large",
+			"contact-map-small",
+			"contact-map-large.jpg",
+			"contact-map",
+			".jumbotron-contact",
+			".commercial-rep-right",
+			".jumbotron",
+			"fpsetting",
+			"site_locked",
+			"contact_map_section",
+			"jumbotron-contact",
+			"mobile-contact-map",
+			"60px",
+			"768px",
+			"768",
+			"padding: 30px 15px;",
+			"  padding: 30px 15px;",
+			"30px",
+			".jumbotron",
+			".contact",
+			"60em",
+			"50em",
+			"commercial-rep",
+			".jumbotron",
+			"60px",
+			"min-width: 768px",
+			"min-width:768px",
+			"min-width: 768px",
+			"min-width:768px",
+			"min-width: 768px",
+			"min-width",
+			".jumbotron-contact",
+			"jumbotron h1",
+			"768px",
+			"stylesheet_link_tag",
+			"768px",
+			".container",
+			"border-radius",
+			".jumbotron",
+			"48px",
+			"48px 0",
+			".jumbotron",
+			"jumbotron-contact",
+			"map-commercial-right",
+			".col-md-4",
+			"60px",
+			"63px",
+			"font-size:63px",
+			"font-size: 63px",
+			"jumbotron .h1",
+			".jumbotron .h1",
+			".jumbotron h1",
+			".container-fluid",
+			"er-fluid .jumbot",
+			"jumbotron",
+			"768px",
+			"768",
+			"min-width: 768px",
+			".contact-map",
+			".jumbotron",
+			".contact-map",
+			".jumbotron",
+			"60px",
+			".jumbotron",
+			".container-fluid\n.container-fluid",
+			".jumbotron",
+			"padding-left: 60px;",
+			"padding-left: 60",
+			".jumbotron",
+			".container .jumbotron, .container-fluid .jumbotron",
+			".fancybox-title",
+			".navbar-directors",
+			"bold",
+			"font-weight: bold;",
+			"strong",
+			".slider-body",
+			"font-weight: bold",
+			"strong",
+			"b, strong",
+			"regular",
+			"nav",
+			"NAV",
+			".nav"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'js-active'",
+			".js-active",
+			"c-highlight",
+			"$c-highlight",
+			".next",
+			".logo",
+			"c-grey",
+			"active",
+			"$c-white",
+			"$c-black",
+			"f-m",
+			"contactengine",
+			"-2em",
+			"-5%",
+			"border-bottom: $border-bottom;",
+			"%desktop",
+			"",
+			"$color-light-grey",
+			"$color-white",
+			"$font-body",
+			"$font-heading",
+			"$color-light-grey",
+			"$color-body",
+			"$color-main",
+			"$color-body",
+			"$color-light-grey",
+			"$color-accent",
+			"$color-color-accent",
+			"$color-white",
+			"$color-dark-grey",
+			"$color-body",
+			"$color-dark",
+			"$color-main",
+			"$body-font",
+			"",
+			"color_main",
+			"color_light_grey",
+			"color_accent",
+			"color_main",
+			"color_body",
+			"color_white",
+			"2015_Prius",
+			"Prius",
+			"Yaris",
+			"Venza",
+			"Tundra",
+			"Tacoma",
+			"Sienna",
+			"Sequoia",
+			"RAV4",
+			"Highlander",
+			"Corolla",
+			"4Runner",
+			"Camry",
+			"4Runner",
+			"Camry",
+			"",
+			"Highlander",
+			"Yaris",
+			"Venza",
+			"Tundra",
+			"Tacoma",
+			"Sienna",
+			"Sequoia",
+			"RAV4",
+			"Highlander",
+			"Corolla",
+			"4Runner",
+			"",
+			"aside",
+			"&.aside",
+			"aside",
+			"f-r",
+			"f-xs",
+			"$secondary-3",
+			"$secondary-2",
+			"$secondary-1",
+			"$main",
+			"$positive",
+			"$negative",
+			"$font-xs",
+			"",
+			"$sans",
+			"",
+			":hover",
+			":focus",
+			":hover",
+			"",
+			"a",
+			"body-font",
+			"require",
+			"@extends",
+			"",
+			"$"
+		],
+		"reverse": true,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"dev/css/main.styl"
+			],
+			[
+				"cart",
+				"casa-y-jardin-10098529/templates/cart.liquid"
+			],
+			[
+				"norma",
+				"css/normalize.styl"
+			],
+			[
+				"abou",
+				"partials/about.html"
+			],
+			[
+				"funct",
+				"css/functions.styl"
+			],
+			[
+				"func",
+				"css/functions.styl"
+			],
+			[
+				"grid",
+				"css/grid.styl"
+			],
+			[
+				"kit",
+				"index.kit"
+			],
+			[
+				"ui",
+				"css/ui.styl"
+			],
+			[
+				"zin",
+				"css/z-index.styl"
+			],
+			[
+				"varia",
+				"css/variables.styl"
+			],
+			[
+				"feed",
+				"website/templates/partials/nav/feed.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": false
+}
