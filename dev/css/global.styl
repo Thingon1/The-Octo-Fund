@@ -1,0 +1,143 @@
+// scrollbar styles for webkit
+::-webkit-scrollbar
+  -webkit-appearance none
+  width .5em
+
+::-webkit-scrollbar-track //color of scrollbar background
+	background $c-main
+	
+::-webkit-scrollbar-thumb //color of scrollbar position
+	background $c-white
+	border 1px solid $c-main
+
+
+//highlight color when selecting text
+::selection 
+	color $c-white
+	background $c-highlight
+
+body
+	@extend $f-sans
+	margin 0 auto
+	padding 0
+	font-size 100%
+	color $c-main
+	background $c-white
+	
+	@media $r-desktop
+		font-size 110%
+
+h1, h2
+	@extend $f-serif
+	margin 0 auto .5em
+	
+h1
+	font-size $f-xl
+		
+h2
+	font-size $f-s
+	max-width 26em
+	
+	
+p
+	margin 0 auto 1em
+	
+	a
+		color $c-highlight
+		border-bottom 1px solid
+		
+		&:hover, &:focus
+			color $c-highlight
+	
+strong, b
+	font-weight $f-bold
+	
+blockquote
+	max-width 25em
+	margin 2em auto
+	padding 0 1em
+	font-size $f-l
+	text-align center
+	color $c-main
+	
+a
+	color inherit
+	text-decoration none
+	transition $t-all
+		
+ul, ol
+	margin 0 auto 1em
+	padding 0 1em
+	
+	li
+		margin 0 auto
+		padding .25em 0
+		
+figure
+	margin 0
+	
+label
+	display block
+	margin 0 0 .25em
+	font-weight $f-light
+	text-align left //keeps left aligned when parent content is centered
+
+input, textarea
+	margin 0 auto .5em
+	color inherit
+	transition $t-all
+	
+	&:hover:not([disabled]), 
+	&:focus:not([disabled])
+		border-color $c-highlight
+	
+input
+	padding .25em
+	border none
+	border-bottom 2px solid
+	border-radius 0
+	
+textarea
+	padding .75em
+	min-height 5.25em //the height of three lines
+	border 1px solid $c-grey
+	border-radius $r-equal
+	
+select
+	width 100%
+	margin .5em auto
+	padding .5em .75em
+	color $c-main
+	background none
+	border 1px solid $c-grey
+	border-radius $r-equal
+	transition $t-all
+	
+button
+	margin 0 auto 1em
+	padding .75em 2em
+	font-weight $f-normal
+	color inherit
+	border 1px solid $c-grey
+	border-radius $r-equal
+	background none
+	transition $t-all, $t-bounce
+	
+	&:hover, &:focus
+		color $c-main
+		border-color $c-main
+	
+	&[disabled]
+		opacity 0
+		visibility hidden
+		transition translateY(-.25em)
+		
+	&.submit
+		width auto
+		font-weight $f-bold
+		color $c-white
+		border-color $c-positive
+		background $c-positive
+		
+		&:hover, &:focus
+			transform scale(1.01)

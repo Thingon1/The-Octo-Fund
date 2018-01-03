@@ -1,0 +1,58 @@
+@import 'functions'
+@import 'normalize'
+@import 'variables'
+@import 'global'
+
+main
+  position fixed
+  height 100%
+  width 100%
+  background $c-main
+  
+  &:before, &:after
+    content ""
+    position absolute
+    width 100%
+    height 100%
+    top 0
+    left 0
+    
+  &:before
+    background url(img/tentacles-top.png) no-repeat top center / contain
+    
+  &:after
+    background url(img/tentacles-bottom.png) no-repeat bottom center / contain
+
+section 
+  position relative
+  z-index $z-section
+  transition $t-all-slow
+  
+#intro
+  @extend $middle
+  max-width 80%
+  margin 0 auto
+  text-align center
+  color $c-white
+  
+  .passcode
+    margin-top 5em
+    
+    p
+      font-size $f-s
+      
+    input
+      display inline-block
+      width 2em
+      text-align center
+      font-size $f-l
+      
+    .request
+      opacity .5
+      transition $t-all
+      
+      &:hover
+        opacity 1
+    
+#about
+  border-top 2px solid $c-main
