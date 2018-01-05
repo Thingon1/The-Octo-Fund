@@ -19,9 +19,10 @@ $r-desktop = "only screen and (min-width: " + em(750) + ")"
   
 
 // z-indexes
-$z-logo = 90
-$z-intro = 100
-$z-home = 80
+$z-loading = 100
+$z-intro = 90
+$z-logo = 80
+$z-home = 70
 
 
 // color palette
@@ -66,7 +67,7 @@ $t-all-slow = all 1s ease-in-out
     transform translateY(0)
     
 $IntroSlideUp
-  animation IntroSlideUp 3s ease-out both
+  animation IntroSlideUp 3s ease-out .75s both
   
 @keyframes IntroSlideDown
   0%
@@ -75,7 +76,7 @@ $IntroSlideUp
     transform translateY(0)
   
 $IntroSlideDown
-  animation IntroSlideDown 3s ease-out both
+  animation IntroSlideDown 3s ease-out .75s both
   
 @keyframes IntroWideHR
   0%
@@ -88,7 +89,7 @@ $IntroSlideDown
     width 100%
     
 $IntroWideHR
-  animation IntroWideHR ease-in 4s both
+  animation IntroWideHR 4s ease-in .75s both
 
 
 // styles

@@ -4,4 +4,4 @@ $(window).load ->
 
 	setTimeout ( ->
 		$("main").addClass("login")
-	), 3900
+	), 4750

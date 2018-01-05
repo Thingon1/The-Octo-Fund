@@ -5,8 +5,13 @@
 
 main
   &.intro
+    #loading
+      visibility hidden
+      
+      .i-logo
+        font-size 0
+
     #intro
-      opacity 1
       visibility visible
     
     h2
@@ -67,12 +72,20 @@ h1
 section
   @extend $fill
   transition $t-all-slow
+
+#loading
+  text-align center
+  font-size 2em
+  z-index $z-loading
   
+  .i-logo
+    @extend $middle
+    transition $t-all-slow
+
 #intro
   z-index $z-intro
   text-align center
   overflow hidden
-  opacity 0
   visibility hidden
   
   .top, .bottom
