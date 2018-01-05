@@ -1,58 +1,103 @@
-@import 'functions'
 @import 'normalize'
 @import 'variables'
 @import 'global'
 
 main
-  position fixed
-  height 100%
-  width 100%
-  background $c-main
+   
+  &.home
+    #intro
+      visibility hidden
+      .top
+        transform translateY(-100%)
+      
+      .bottom
+        transform translateY(100%)
+      
+      h2
+        opacity 0
+      
+      .tagline
+        opacity 0
+        
+    .logo
+      color $c-white
+        
+    #home
+      visibility visible
+    
+h1
+  @extend $f-serif
+  display inline-block
+  margin 0
+  font-size 1.5em
+  text-transform uppercase
   
-  &:before, &:after
-    content ""
-    position absolute
-    width 100%
-    height 100%
-    top 0
-    left 0
-    
-  &:before
-    background url(img/tentacles-top.png) no-repeat top center / contain
-    
-  &:after
-    background url(img/tentacles-bottom.png) no-repeat bottom center / contain
+.logo
+  position fixed
+  top 1em
+  left 1em
+  padding .5% .75%
+  z-index $z-logo
+  transition $t-all
+  
+  &:hover
+    color $c-highlight
+  
+  .i-logo
+    display inline-block
+    position relative
+    top 2px
+    margin-right .125em
+    font-size 1.5em
 
-section 
-  position relative
-  z-index $z-section
+section
+  @extend $fill
   transition $t-all-slow
   
 #intro
-  @extend $middle
-  max-width 80%
-  margin 0 auto
+  z-index $z-intro
   text-align center
-  color $c-white
+  overflow hidden
   
-  .passcode
-    margin-top 5em
+  .top, .bottom
+    position relative
+    height 50%
+    transition $t-all-slow
+    background $c-white
+    overflow hidden
     
-    p
-      font-size $f-s
-      
-    input
-      display inline-block
-      width 2em
-      text-align center
-      font-size $f-l
-      
-    .request
-      opacity .5
-      transition $t-all
-      
-      &:hover
-        opacity 1
+    @media $r-desktop
+      font-size 125%
     
-#about
-  border-top 2px solid $c-main
+  h2
+    @extend $IntroSlideUp
+    @extend $f-serif
+    position absolute
+    margin 0
+    bottom -.125em
+    font-size 3em
+    width 100%
+    transition $t-all-slow
+    
+  hr
+    @extend $IntroWideHR
+    width 10em
+    margin 0 auto .325em
+    
+  .tagline
+    @extend $IntroSlideDown
+    transition $t-all-slow
+    
+  .disclaimer
+    @extend $detail
+    position absolute
+    bottom 2em
+    width 100%
+    margin 0
+    font-size $f-s
+    
+#home
+  z-index $z-home
+  color $c-white
+  background $c-main
+  visibility hidden

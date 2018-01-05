@@ -1,18 +1,28 @@
+// convert pixels to em's automagically - based on the assumption that 1em = 16px
+em(a)
+  a / 16 + 0em
+    
+
 // responsive breakpoints
 $r-desktop = "only screen and (min-width: " + em(750) + ")"
 
+
 // grid
-$grid
-  position relative
-  display inline-block
-  width 100% //default width for mobile
-  vertical-align top
+// $grid
+//   position relative
+//   display inline-block
+//   width 100% //default width for mobile
+//   vertical-align top
   
-  @media $r-desktop
-    margin-right -.25em
+//   @media $r-desktop
+//     margin-right -.25em
   
+
 // z-indexes
-$z-section = 100
+$z-logo = 90
+$z-intro = 100
+$z-home = 80
+
 
 // color palette
 $c-white = #F6F7FB
@@ -23,29 +33,74 @@ $c-highlight = #F5BD36
 $c-positive = #88C425
 $c-negative = #E51F1E
 
-// typography
-$f-sans
-	font-family Open Sans, Helvetica, sans
-	line-height 1.75
-	font-weight 400
 
-$f-serif
-	font-family Merriweather, Georgia, serif
-	line-height 1.5
-	font-weight 400
-	
+// typography
 $f-s = em(12)
 $f-r = em(16)
 $f-l = em(20)
-$f-xl = em(24)
 
 $f-light = 300
+$f-regular = 400
 $f-bold = 600
+
+$f-sans
+  font-family Open Sans, Helvetica, sans
+  line-height 1.5
+  font-weight $f-light
+
+$f-serif
+  font-family Cardo, Georgia, serif
+  font-weight $f-regular
+
 
 // transitions
 $t-all = all .25s ease-in-out
 $t-all-slow = all 1s ease-in-out
 
+
+// animations
+@keyframes IntroSlideUp
+  0%
+    transform translateY(100%)
+  100%
+    transform translateY(0)
+    
+$IntroSlideUp
+  animation IntroSlideUp 3s ease-out both
+  
+@keyframes IntroSlideDown
+  0%
+    transform translateY(-150%)
+  100%
+    transform translateY(0)
+  
+$IntroSlideDown
+  animation IntroSlideDown 3s ease-out both
+  
+@keyframes IntroWideHR
+  0%
+    width 0
+  25%
+    width 10em
+  75%
+    width 50%
+  100%
+    width 100%
+    
+$IntroWideHR
+  animation IntroWideHR ease-in 4s both
+
+
+// styles
+$detail
+  opacity .5
+  transition $t-all
+  
+  &:hover, &:focus
+    opacity 1
+
+
+// ui
 $fill
   position absolute
   top 0
@@ -53,54 +108,41 @@ $fill
   right 0
   bottom 0 
   min-height 100%
-  min-width 100% 
+  min-width 100%
   
-.disabled
-  visibility hidden
-  overflow hidden
-  opacity 0
-  height 0
-  margin 0 !important
-  padding 0 !important
-
 $middle
-	top 50%
-	transform translateY(-50%)
+  position relative
+  top 50%
+  transform translateY(-50%)
+  
 
-//custom icons
-@font-face
-	font-family 'CustomFont'
-	src url('../fonts/CustomFont.woff') format('woff'), url('../fonts/CustomFont.ttf') format('ttf')
+// icons
+@font-face {
+  font-family: 'CustomFont';
+  src:  url('fonts/CustomFont.eot?qfv1y6');
+  src:  url('fonts/CustomFont.eot?qfv1y6#iefix') format('embedded-opentype'),
+    url('fonts/CustomFont.ttf?qfv1y6') format('truetype'),
+    url('fonts/CustomFont.woff?qfv1y6') format('woff'),
+    url('fonts/CustomFont.svg?qfv1y6#CustomFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
-[class^="i-"]:before, [class*=" i-"]:before
-	font-family 'CustomFont'
-	display inline-block
-	position relative
-	font-size 80%
-	speak none
-	font-style normal
-	font-weight normal
-	font-variant normal
-	text-transform none
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CustomFont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .i-logo:before {
-  content: "\e903";
-}
-.i-mail-checked:before {
-  content: "\e932";
-}
-.i-mail:before {
-  content: "\e933";
-}
-.i-linkedin:before {
   content: "\e900";
-}
-.i-fb:before {
-  content: "\e901";
-}
-.i-twitter:before {
-  content: "\e902";
-}
-.i-name:before {
-  content: "\e931";
 }
