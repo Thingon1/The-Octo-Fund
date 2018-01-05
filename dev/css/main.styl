@@ -2,9 +2,23 @@
 @import 'variables'
 @import 'global'
 
+
 main
-   
-  &.home
+  &.intro
+    #intro
+      opacity 1
+      visibility visible
+    
+    h2
+      @extend $IntroSlideUp
+      
+    hr
+      @extend $IntroWideHR
+    
+    .tagline
+      @extend $IntroSlideDown
+
+  &.login
     #intro
       visibility hidden
       .top
@@ -22,7 +36,7 @@ main
     .logo
       color $c-white
         
-    #home
+    #login
       visibility visible
     
 h1
@@ -58,6 +72,8 @@ section
   z-index $z-intro
   text-align center
   overflow hidden
+  opacity 0
+  visibility hidden
   
   .top, .bottom
     position relative
@@ -70,7 +86,6 @@ section
       font-size 125%
     
   h2
-    @extend $IntroSlideUp
     @extend $f-serif
     position absolute
     margin 0
@@ -80,12 +95,10 @@ section
     transition $t-all-slow
     
   hr
-    @extend $IntroWideHR
     width 10em
     margin 0 auto .325em
     
   .tagline
-    @extend $IntroSlideDown
     transition $t-all-slow
     
   .disclaimer
@@ -96,7 +109,7 @@ section
     margin 0
     font-size $f-s
     
-#home
+#login
   z-index $z-home
   color $c-white
   background $c-main

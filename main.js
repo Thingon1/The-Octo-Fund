@@ -1,1 +1,1 @@
-(function(){$(window).load(function(){return setTimeout(function(){return $("main").addClass("home")},3900)})}).call(this);
+(function(){$(window).load(function(){return $("main").addClass("intro"),setTimeout(function(){return $("main").addClass("login")},3900)})}).call(this);
