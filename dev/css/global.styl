@@ -28,26 +28,41 @@ body
 		font-size 110%
 		
 // global typography
+strong, b
+	font-weight $f-bold
+	
+a
+	position relative
+	margin -.5em .1em
+	padding .5em 0
+	color $c-highlight
+	text-decoration none
+	transition $t-all
+	cursor pointer !important //overrides p
+	
+	background-image linear-gradient(0deg, alpha($c-highlight,.9), alpha($c-highlight,.9))
+	background-repeat no-repeat
+	background-size 100% 1px
+	background-position 0 85%
+	
+	&:hover, &:focus
+		background-size 100% 100%
+		background-color transparent
+		margin -.5em -.9em //padding minus original margin
+		padding .5em 1em
+		
+	
 p
 	margin 0 auto 1em
 	
-	a
-		border-bottom 1px solid
-		
-		&:hover, &:focus
-			color $c-highlight
+	button
+		@extend a
+		border none
+		text-transform none
 				
 h2
 	@extend p
 	font inherit
-	
-strong, b
-	font-weight $f-bold
-
-a
-	color inherit
-	text-decoration none
-	transition $t-all
 	
 ul, ol
 	margin 0 auto 1em
@@ -72,6 +87,32 @@ hr
 	border 0
 	background $c-main
 		
+button
+	margin 0 auto 1em
+	padding .75em 2em
+	font-weight $f-regular
+	color inherit
+	border 1px solid
+	border-radius 0
+	background none
+	text-transform uppercase
+	transition $t-all
+	
+	&:hover, &:focus
+		color $c-white
+		background-color $c-highlight
+		border-color inherit
+		cursor default
+		
+	&.disabled
+		opacity .5
+		
+		&:hover, &:focus
+			color $c-negative
+			border-color inherit
+			background none
+
+
 // figure
 // 	margin 0
 	
@@ -119,32 +160,3 @@ hr
 // 	border 1px solid $c-grey
 // 	border-radius $r-equal
 // 	transition $t-all
-	
-// button
-// 	margin 0 auto 1em
-// 	padding .75em 2em
-// 	font-weight $f-normal
-// 	color inherit
-// 	border 1px solid $c-grey
-// 	border-radius $r-equal
-// 	background none
-// 	transition $t-all, $t-bounce
-	
-// 	&:hover, &:focus
-// 		color $c-main
-// 		border-color $c-main
-	
-// 	&[disabled]
-// 		opacity 0
-// 		visibility hidden
-// 		transition translateY(-.25em)
-		
-// 	&.submit
-// 		width auto
-// 		font-weight $f-bold
-// 		color $c-white
-// 		border-color $c-positive
-// 		background $c-positive
-		
-// 		&:hover, &:focus
-// 			transform scale(1.01)
