@@ -13,6 +13,7 @@ main
 
     #intro
       visibility visible
+      display block !important //keeps it from showing up (flickering) onpageload
     
     h2
       @extend $IntroSlideUp
@@ -22,6 +23,9 @@ main
     
     .tagline
       @extend $IntroSlideDown
+      
+    #login
+      display block !important //keeps it from showing up (flickering) onpageload
 
   &.login
     #intro
@@ -53,9 +57,9 @@ h1
   
 .logo
   position fixed
-  top 1em
-  left 1em
-  padding .5% .75%
+  top 0
+  left 0
+  padding 2% 2.25%
   z-index $z-logo
   transition $t-all
   
