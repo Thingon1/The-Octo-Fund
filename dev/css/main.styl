@@ -21,7 +21,7 @@ main
     hr
       @extend $IntroWideHR
     
-    .tagline
+    .intro-desc
       @extend $IntroSlideDown
       
     #login
@@ -39,7 +39,7 @@ main
       h2
         opacity 0
       
-      .tagline
+      .intro-desc
         opacity 0
         
     .logo
@@ -57,8 +57,8 @@ h1
   
 .logo
   position fixed
-  top 0
-  left 0
+  top .25em
+  left .25em
   padding 2% 2.25%
   z-index $z-logo
   transition $t-all
@@ -115,7 +115,7 @@ section
     width 10em
     margin 0 auto .325em
     
-  .tagline
+  .intro-desc
     transition $t-all-slow
     
   .disclaimer
@@ -131,3 +131,12 @@ section
   color $c-white
   background $c-main
   visibility hidden
+  
+  .tagline
+    position absolute
+    bottom .25em
+    left .25em
+    padding 2% 2.25%
+    max-width 40em
+    margin 0
+    
