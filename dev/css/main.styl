@@ -61,11 +61,8 @@ main
         color $c-positive !important
         border-bottom-color $c-positive !important
         
-      .instruction
-        opacity 0
-        
-      .get-code
-        opacity 0
+      .logo h1, .instruction, .get-code, .tagline
+        opacity 0 !important
       
     #welcome-alert
       opacity 1
@@ -79,6 +76,7 @@ h1
   font-size 1.5em
   text-transform uppercase
   vertical-align middle
+  transition $t-all-slow
   
 .logo
   position fixed
@@ -188,15 +186,18 @@ section
       
       &:first-of-type
         width 12em
+        max-width 12em
         padding .25em
-        transition $t-all, mwidth $t-all-slow
+        transition $t-all, max-width $t-all-slow, width $t-all-slow
         
         &:hover:not(.js-enter)
           width 13em
+          max-width 13em
           transition $t-all
           
         &:focus:not(.js-enter)
           width 12em
+          max-width 12em
       
       &.js-enter
         width 6%
@@ -229,6 +230,7 @@ section
     left .5em
     margin 0 2% 1.5% 1.5%
     max-width 40em
+    transition $t-all-slow
     
 #welcome-alert
   opacity 0
