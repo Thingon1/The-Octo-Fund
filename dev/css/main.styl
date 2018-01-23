@@ -57,8 +57,9 @@ main
       visibility hidden
       transition-delay 1.5s
       
-      form
-        color $c-positive
+      form input, form input:hover, form input:focus, form input:active
+        color $c-positive !important
+        border-bottom-color $c-positive !important
         
       .instruction
         opacity 0
@@ -81,9 +82,9 @@ h1
   
 .logo
   position fixed
-  top .25em
-  left .25em
-  margin 2% 2.25%
+  top .5em
+  left .5em
+  margin 1% 1.25%
   z-index $z-logo
   transition $t-all
   
@@ -164,7 +165,10 @@ section
     &.js-incorrect
       form
         color $c-negative
-        
+      
+      .instruction
+        opacity .5
+
       .get-code
         opacity 1
     
@@ -185,7 +189,7 @@ section
       &:first-of-type
         width 12em
         padding .25em
-        transition $t-all, width $t-all-slow
+        transition $t-all, mwidth $t-all-slow
         
         &:hover:not(.js-enter)
           width 13em
@@ -195,7 +199,8 @@ section
           width 12em
       
       &.js-enter
-        width 2em
+        width 6%
+        max-width 2em
         padding .25em
         margin-right .25em
         
@@ -222,7 +227,7 @@ section
     position absolute
     bottom .5em
     left .5em
-    margin 2% 10% 2% 2.25%
+    margin 0 2% 1.5% 1.5%
     max-width 40em
     
 #welcome-alert
