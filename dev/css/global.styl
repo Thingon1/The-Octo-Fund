@@ -63,6 +63,11 @@ p
 h2
 	@extend p
 	font inherit
+		
+h3
+	@extend $f-serif
+	margin 0 auto
+	text-transform uppercase
 	
 ul, ol
 	margin 0 auto 1em
@@ -89,7 +94,7 @@ hr
 		
 button
 	margin 0 auto 1em
-	padding .75em 2em
+	padding .5em 2em
 	font-weight $f-regular
 	color inherit
 	border 1px solid
@@ -102,7 +107,7 @@ button
 		color $c-white
 		background-color $c-highlight
 		border-color inherit
-		cursor default
+		cursor pointer
 		
 	&.disabled
 		opacity .5
@@ -111,6 +116,32 @@ button
 			color $c-negative
 			border-color inherit
 			background none
+			
+input, textarea
+	margin 0 auto .5em
+	color inherit
+	transition $t-all
+	
+	&:hover:not([disabled]), 
+	&:focus:not([disabled])
+		border-color $c-highlight
+	
+input
+	padding .25em
+	border none
+	border-bottom 1px solid
+	border-radius 0
+
+// Remove Arrows
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 
 // figure
@@ -129,21 +160,6 @@ button
 //   height 0
 //   margin 0 !important
 //   padding 0 !important
-  
-// input, textarea
-// 	margin 0 auto .5em
-// 	color inherit
-// 	transition $t-all
-	
-// 	&:hover:not([disabled]), 
-// 	&:focus:not([disabled])
-// 		border-color $c-highlight
-	
-// input
-// 	padding .25em
-// 	border none
-// 	border-bottom 2px solid
-// 	border-radius 0
 	
 // textarea
 // 	padding .75em

@@ -50,13 +50,28 @@
                 </h1>
             </div>
 
+            <div class="access-code">
+                <p class="instruction">
+                    Please enter your access code below:
+                </p>
+
+                <form>
+                    <input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/>
+                </form>
+
+                <p class="get-code">
+                    Don't have an access code? <br>
+                    <button>Request one here</button>
+                </p>
+            </div>
+
             <p class="tagline">
-                Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets. <!-- <button>Learn more</button> -->
+                Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets. <button>Learn more</button>
             </p>
             
         </section>
 
-         <section id="intro" style="display:none;">
+        <section id="intro" style="display:none;">
 
             <div class="top">
                 <h2>
@@ -77,15 +92,24 @@
             
         </section>
 
-         <section id="loading">
+        <section id="loading">
             <div class="i-logo"></div>
-        </section>    
+        </section>
+
+        <section id="welcome-alert" style="display:none;">
+            <h3>
+                Welcome, <span class="js-custom-name"></span>.
+            </h3>
+        </section>   
         
      </main>
 
-    <!--Javascript-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="main.js"></script>
+<!--Javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="main.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
     
 </body>
 </html>

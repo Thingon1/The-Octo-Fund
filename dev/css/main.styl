@@ -47,6 +47,29 @@ main
         
     #login
       visibility visible
+      
+    #welcome-alert
+      display block !important
+      
+  &.welcome
+    #login
+      opacity 0
+      visibility hidden
+      transition-delay 1.5s
+      
+      form
+        color $c-positive
+        
+      .instruction
+        opacity 0
+        
+      .get-code
+        opacity 0
+      
+    #welcome-alert
+      opacity 1
+      visibility visible
+      transition-delay 3.5s
     
 h1
   @extend $f-serif
@@ -54,6 +77,7 @@ h1
   margin 0
   font-size 1.5em
   text-transform uppercase
+  vertical-align middle
   
 .logo
   position fixed
@@ -69,9 +93,9 @@ h1
   .i-logo
     display inline-block
     position relative
-    top 2px
-    margin-right .125em
+    margin-right .25em
     font-size 1.5em
+    vertical-align middle
 
 section
   @extend $fill
@@ -133,10 +157,80 @@ section
   background url(../img/login_bg.jpg) no-repeat center / cover
   visibility hidden
   
+  .access-code
+    @extend $middle
+    text-align center
+      
+    &.js-incorrect
+      form
+        color $c-negative
+        
+      .get-code
+        opacity 1
+    
+    .instruction
+      margin-bottom 3em
+    
+    form
+      margin-bottom .75em
+      transition opacity $t-all-slow
+      transition-delay .5s
+    
+    input
+      text-align center
+      width 0
+      padding-left 0
+      padding-right 0
+      
+      &:first-of-type
+        width 12em
+        padding .25em
+        transition $t-all, width $t-all-slow
+        
+        &:hover:not(.js-enter)
+          width 13em
+          transition $t-all
+          
+        &:focus:not(.js-enter)
+          width 12em
+      
+      &.js-enter
+        width 2em
+        padding .25em
+        margin-right .25em
+        
+        &:hover
+          border-bottom-color $c-white
+          
+        &:nth-of-type(3), &:nth-of-type(6)
+          margin-right 1em
+      
+      &.js-invalid-input
+        border-bottom-color $c-negative !important
+        
+    .instruction, .get-code
+      transition $t-all-slow
+        
+    .get-code
+      font-size $f-s
+      opacity .5
+      
+      &:hover
+        opacity 1
+
   .tagline
     position absolute
     bottom .5em
     left .5em
     margin 2% 10% 2% 2.25%
     max-width 40em
+    
+#welcome-alert
+  opacity 0
+  visibility hidden
+  text-align center
+  
+  h3
+    @extend $middle
+    color $c-main
     

@@ -1,43 +1,5 @@
-<!DOCTYPE html>
-<head>
-    
-    <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Site Info -->
-    <title>THE OCTO FUND</title>
-    <meta name="description" content="Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets.">
-    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    
-    <!-- Styles for mobile browser bars -->
-    <meta name="theme-color" content="#161B21">
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="msapplication-navbutton-color" content="#161B21"> 
-    <!-- Windows Phone -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#161B21"> <!-- iOS Safari -->
+<!-- @import "head.kit" -->
 
-    <!-- OpenGraph -->
-    <meta property="og:url" content="http://THEOCTOFUND.com">
-    <meta property="og:title" content="THE OCTO FUND">
-    <meta property="og:description" content="=Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets.">
-    <meta property="og:image" content="http://THEOCTOFUND.com.com/img/fb-thumb.jpg">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="main.css">
-        
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
-        
-</head>
 <body>
     <main>
 
@@ -50,13 +12,28 @@
                 </h1>
             </div>
 
+            <div class="access-code">
+                <p class="instruction">
+                    Please enter your access code below:
+                </p>
+
+                <form>
+                    <input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/><input type="number" maxlength="1"/>
+                </form>
+
+                <p class="get-code">
+                    Don't have an access code? <br>
+                    <button>Request one here</button>
+                </p>
+            </div>
+
             <p class="tagline">
-                Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets. <!-- <button>Learn more</button> -->
+                Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets. <button>Learn more</button>
             </p>
             
         </section>
 
-         <section id="intro" style="display:none;">
+        <section id="intro" style="display:none;">
 
             <div class="top">
                 <h2>
@@ -77,15 +54,24 @@
             
         </section>
 
-         <section id="loading">
+        <section id="loading">
             <div class="i-logo"></div>
-        </section>    
+        </section>
+
+        <section id="welcome-alert" style="display:none;">
+            <h3>
+                Welcome, <span class="js-custom-name"></span>.
+            </h3>
+        </section>   
         
      </main>
 
-    <!--Javascript-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="main.js"></script>
+<!--Javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="main.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js" integrity="sha384-lp4k1VRKPU9eBnPePjnJ9M2RF3i7PC30gXs70+elCVfgwLwx1tv5+ctxdtwxqZa7" crossorigin="anonymous"></script>
     
 </body>
 </html>
