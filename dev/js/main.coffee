@@ -18,29 +18,36 @@ $(window).load ->
 	]
 
 	$('.access-code input').keyup ->
+
+		if $(this).val().length < 10
+			@style.width = (@value.length + 1) * 2.125 + 'em'
 		
 		#autotab password input field
-		if @value.length == @maxLength
-			$(this).addClass('js-enter')
-			$(this).next('input').addClass('js-enter')
-			$(this).next('input').focus()
+#		if @value.length == @maxLength
+#			$(this).addClass('js-enter')
+#			$(this).next('input').addClass('js-enter')
+#			$(this).next('input').focus()
 
-		inputValidate = true
+#		inputValidate = true
 
 		#check to see if all items are complete
-		$('.access-code input').each (index, element) ->
-			if $(element).val() == ''
-			  inputValidate = false
-			return
+#		$('.access-code input').each (index, element) ->
+#			if $(element).val() == ''
+#			  inputValidate = false
+#			return
 
 		#submit and check access code
-		if inputValidate
+#		if inputValidate
+
+		if $(this).val().length == 10
 			#loose focus on input
 			$('input').blur()
 
 			# combine inputs into one string
-			$('.access-code input').each (index, element) ->
-				code = code + $(this).val()
+#			$('.access-code input').each (index, element) ->
+#				code = code + $(this).val()
+	
+			code = $(this).val()
 
 			#encrypt access string 
 			encrypted = CryptoJS.SHA512(code).toString()
