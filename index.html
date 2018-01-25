@@ -41,14 +41,14 @@
 <body>
     <main>
 
-        <section id="login" style="display:none;">
+        <div class="logo" style="display:none;">
+            <div class="i-logo"></div>
+            <h1>
+                THE OCTO FUND
+            </h1>
+        </div>
 
-            <div class="logo">
-                <div class="i-logo"></div>
-                <h1>
-                    THE OCTO FUND
-                </h1>
-            </div>
+        <section id="login" style="display:none;">
 
             <div class="access-code">
                 <p class="instruction">
@@ -61,14 +61,64 @@
 
                 <p class="get-code">
                     Don't have an access code? <br>
-                    <button>Request one here</button>
+                    <button class='js-toggle-request'>Request one here</button>
                 </p>
             </div>
 
             <p class="tagline">
-                Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets. <button>Learn more</button>
+                Private investment group, focused on the discretionary application of contextually relevant algorithmic strategies within the financial markets. <button class='js-toggle-request'>Learn more</button>
             </p>
             
+        </section>
+
+        <section id="request" style="display:none;">
+            <div class="rq-bg js-toggle-request"></div>
+
+            <button class='js-toggle-request'>
+                X
+            </button>
+
+            <div class="request-content">
+
+                <form class="content">
+                    
+                    <h3>
+                        Request Access Code
+                    </h3>
+
+                    <p>
+                        The Octo Fund makes the site, its content, details of the fund, and its performance available only to current clients and prospective investors. Please complete and submit the form below in order to request a unique access code.
+                    </p>
+
+                </form>
+                
+            </div>
+        </section>
+
+        <section id="welcome-alert" style="display:none;">
+            <h3>
+                Welcome, <span class="js-custom-name"></span>.
+            </h3>
+        </section>   
+
+        <section id='social' style="display:none;">
+            
+            <div class="content">
+                <h3>
+                    Follow Us
+                </h3>
+
+                <button class="back-to-top">
+                    ^ Back To Top
+                </button>
+
+                <a class="twitter-timeline" data-theme="light" href="https://twitter.com/TheOctoFund?ref_src=twsrc%5Etfw">Tweets by TheOctoFund</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+        </section>
+
+        <section id="loading">
+            <div class="i-logo"></div>
         </section>
 
         <section id="intro" style="display:none;">
@@ -91,21 +141,12 @@
             </p>
             
         </section>
-
-        <section id="loading">
-            <div class="i-logo"></div>
-        </section>
-
-        <section id="welcome-alert" style="display:none;">
-            <h3>
-                Welcome, <span class="js-custom-name"></span>.
-            </h3>
-        </section>   
         
      </main>
 
 <!--Javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="codes.js"></script>
 <script src="main.js"></script>
 
 

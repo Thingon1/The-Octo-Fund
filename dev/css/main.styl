@@ -3,7 +3,7 @@
 @import 'global'
 
 
-main
+main  
   &.intro
     #loading
       visibility hidden
@@ -28,6 +28,9 @@ main
       display block !important //keeps it from showing up (flickering) onpageload
 
   &.login
+    .logo, #request
+      display block !important //keeps it from showing up (flickering) onpageload
+      
     #intro
       visibility hidden
       .top
@@ -51,7 +54,13 @@ main
     #welcome-alert
       display block !important
       
+    #social
+      display block !important
+      
   &.welcome
+    .logo h1
+      opacity 0
+      
     #login
       opacity 0
       visibility hidden
@@ -61,22 +70,16 @@ main
         color $c-positive !important
         border-bottom-color $c-positive !important
         
-      .logo h1, .instruction, .get-code, .tagline
-        opacity 0 !important
+      .instruction, .get-code, .tagline
+        opacity 0
+        
+    #social
+      display none !important
       
     #welcome-alert
       opacity 1
       visibility visible
       transition-delay 3.5s
-    
-h1
-  @extend $f-serif
-  display inline-block
-  margin 0
-  font-size 1.5em
-  text-transform uppercase
-  vertical-align middle
-  transition $t-all-slow
   
 .logo
   position fixed
@@ -84,7 +87,6 @@ h1
   left .5em
   margin 1% 1.25%
   z-index $z-logo
-  transition $t-all
   
   &:hover
     color $c-highlight
@@ -95,10 +97,28 @@ h1
     margin-right .25em
     font-size 1.5em
     vertical-align middle
+    transition $t-all
+    
+  h1
+    @extend $f-serif
+    display inline-block
+    margin 0
+    font-size 1.5em
+    text-transform uppercase
+    vertical-align middle
+    transition $t-all-slow
+    
+    &.js-scroll
+      transform translateY(-.25em)
+      opacity 0
 
 section
   @extend $fill
   transition $t-all-slow
+  
+  .content
+    margin 2em auto
+    padding 4% 5%
 
 #loading
   text-align center
@@ -150,7 +170,8 @@ section
     font-size $f-s
     
 #login
-  z-index $z-home
+  position fixed
+  z-index $z-login
   color $c-white
   background-color $c-main
   background url(../img/login_bg.jpg) no-repeat center / cover
@@ -194,33 +215,6 @@ section
         
       &.js-invalid-input
         border-bottom-color $c-negative !important
-      
-      // &:first-of-type
-      //   width 12em
-      //   max-width 12em
-      //   padding .25em
-      //   transition $t-all, max-width $t-all-slow, width $t-all-slow
-        
-        // &:hover:not(.js-enter)
-        //   width 13em
-        //   max-width 13em
-        //   transition $t-all
-          
-        // &:focus:not(.js-enter)
-        //   width 12em
-        //   max-width 12em
-      
-      // &.js-enter
-      //   width 6%
-      //   max-width 2em
-      //   padding .25em
-      //   margin-right .25em
-        
-      //   &:hover
-      //     border-bottom-color $c-white
-          
-      //   &:nth-of-type(3), &:nth-of-type(6)
-      //     margin-right 1em
         
     .instruction, .get-code
       transition $t-all-slow
@@ -237,6 +231,72 @@ section
     max-width 40em
     transition $t-all-slow
     
+#request
+  z-index $z-request
+  visibility hidden
+  
+  .rq-bg
+    @extend $fill
+    opacity 0
+    background-color $c-black
+    cursor pointer
+    transition $t-all-slow
+    
+  button.js-toggle-request
+    position fixed
+    z-index 5
+    right 1%
+    margin 1% 1.25%
+    padding 1em .5em 2em 2em
+    border none
+    opacity 0
+    background none
+    
+  .request-content
+    position fixed
+    top 0
+    right 0
+    bottom 0
+    left 3.5em
+    background-color $c-white
+    transform translateX(100%)
+    transition $t-all-slow
+        
+    .content
+      p
+        max-width 38em
+
+main
+  &.req-open
+    .logo h1
+      opacity 0
+      
+    #request
+      visibility visible
+      
+      .rq-bg
+        opacity .4
+        
+        &:hover
+          opacity .2
+          transition $t-all
+          
+      button.js-toggle-request
+        opacity .5
+        
+        &:hover, &:focus 
+          opacity 1
+          color $c-negative
+      
+      .request-content
+        transform translateX(1.25%)
+        
+    .tagline
+      opacity 0
+      
+    #social
+      display none !important
+    
 #welcome-alert
   opacity 0
   visibility hidden
@@ -246,3 +306,45 @@ section
     @extend $middle
     color $c-main
     
+#social
+  top 100%
+  bottom initial
+  color $c-white
+  z-index $z-social
+  min-height 105% //so border radius doesn't show when scrolling
+  padding-top 5em
+  text-align center
+  border-radius 150%/2em 2em 0 0
+  box-shadow 0 0 2em 0 alpha($c-white,.2)
+  background-color alpha($c-black,.9)
+  
+  h3
+    margin-bottom 2em
+    
+  .back-to-top
+    position fixed
+    opacity 0
+    visibility hidden
+    right 50%
+    transform translateX(50%)
+    bottom 0
+    margin 1%
+    font-size $f-s
+    background-color alpha($c-black,.9)
+    border-color $c-black
+    
+    &:hover, &:focus
+      color $c-black
+      background-color $c-highlight
+      
+    &.js-scroll
+      opacity 1
+      visibility visible
+      bottom .25em
+      
+    @media $r-tablet
+      right .5em
+      transform none
+    
+  #twitter-widget-0
+    max-width 30em !important
